@@ -5,7 +5,7 @@ import os
 from git_index_parser import GitIndexParser
 
 # Set up the argument parser
-parser = argparse.ArgumentParser(description='Dump ./git/index file into cleartext, readable')
+parser = argparse.ArgumentParser(description='Dump ./git/index file into cleartext, readable format')
 parser.add_argument('index', nargs='?', default='./.git/index', help='Specify the path of .git/index file')
 args = parser.parse_args()
 
